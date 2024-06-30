@@ -1,0 +1,27 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nativeScript-unitTest-repro", "nativeScript-unitTest-repro.csproj", "{57CAFF37-BFA0-4282-A8C8-573D458A06DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nativeScript-unitTest-repro-tests", "nativeScript-unitTest-repro-tests\nativeScript-unitTest-repro-tests.csproj", "{8D607868-2962-4C01-B515-CC4A538EADFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57CAFF37-BFA0-4282-A8C8-573D458A06DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CAFF37-BFA0-4282-A8C8-573D458A06DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CAFF37-BFA0-4282-A8C8-573D458A06DC}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{57CAFF37-BFA0-4282-A8C8-573D458A06DC}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{57CAFF37-BFA0-4282-A8C8-573D458A06DC}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{57CAFF37-BFA0-4282-A8C8-573D458A06DC}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{8D607868-2962-4C01-B515-CC4A538EADFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D607868-2962-4C01-B515-CC4A538EADFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D607868-2962-4C01-B515-CC4A538EADFE}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D607868-2962-4C01-B515-CC4A538EADFE}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{8D607868-2962-4C01-B515-CC4A538EADFE}.ExportRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D607868-2962-4C01-B515-CC4A538EADFE}.ExportRelease|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal

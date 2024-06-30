@@ -1,0 +1,14 @@
+<Project Sdk="Godot.NET.Sdk/3.3.0">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>nativeScriptunitTestrepro</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="nativeScript-unitTest-repro-tests\obj\**" />
+    <Compile Remove="nativeScript-unitTest-repro-tests\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="nativeScript-unitTest-repro-tests\obj\**" />
+    <EmbeddedResource Remove="nativeScript-unitTest-repro-tests\**" />
+  </ItemGroup>
+</Project>
