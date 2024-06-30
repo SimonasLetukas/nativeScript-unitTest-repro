@@ -10,8 +10,9 @@ public class Game : Node2D
     {
         var nativeScriptExists = ResourceLoader.Exists("res://addons/dijkstra-map/Dijkstra_map_library/nativescript.gdns");
         var nativeLibraryExists = ResourceLoader.Exists("res://addons/dijkstra-map/Dijkstra_map_library/gdnativelibrary.tres");
-		
-        GD.Print($"{nameof(nativeScriptExists)} {nativeScriptExists}, {nameof(nativeLibraryExists)} {nativeLibraryExists}");
+        
+        if (nativeLibraryExists is false || nativeScriptExists is false)
+            throw new Exception("Script file could not be found.");
 		
         var dijkstraMapScript = GD.Load("res://addons/dijkstra-map/Dijkstra_map_library/nativescript.gdns") as NativeScript;
         var dijkstraMap = dijkstraMapScript?.New() as Object;
